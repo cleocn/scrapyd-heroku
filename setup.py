@@ -17,7 +17,9 @@ AUTHOR = 'jxltom'
 VERSION = None
 REQUIRES_PYTHON = '>=3.6.0'
 REQUIRED = [
-    'scrapyd'
+    'scrapyd',
+    'asn1crypto==0.24.0',
+    'astroid==2.2.5'
 ]
 
 
